@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menubar name="mainMenu">
+    <menu name="file" text="Опции" mnemonic="Ф">
+        <menu name="f1" text="Внешний вид">
+            <menuitem name="look1" text="Вид 1" accelerator="alt Q"/>
+            <menuitem name="look2" text="Вид 2" accelerator="alt W"/>
+            <menuitem name="look3" text="Вид 3" accelerator="alt E"/>
+            <menuitem name="look4" text="Вид 4" accelerator="alt R"/>
+        </menu>
+        <menuitem name="clean" text="Очистить" mnemonic="О" accelerator="alt С"/>
+    </menu>
+    <menu name="file2" text="Справка" mnemonic="C">
+                <menuitem name="info" text="О программе" mnemonic="п" accelerator="alt S"/>
+    </menu>
+    <menu name="file3" text="Выполнить" mnemonic="В">
+        <menuitem name="execute" text="Выполнить" mnemonic="N" accelerator="alt N"/>
+    </menu>
+    <menu name="file4" text="Выход" >
+        <menuitem name="exit" text="Выход" mnemonic="P" accelerator="alt P"/>
+    </menu>
+</menubar>
